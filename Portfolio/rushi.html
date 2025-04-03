@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rushikesh Gadhave - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #0073e6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e3f2fd;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #0073e6;
+            color: white;
+            margin-top: 20px;
+        }
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rushikesh Bapuso Gadhave</h1>
+        <p>Recent IT Engineering Graduate | Full Stack Developer | Java Enthusiast</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Recent Engineering Graduate with expertise in technical development, problem-solving, and teamwork. Eager to innovate and grow in fast-paced tech environments.</p>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Engineering - Information Technology, Trinity College of Engineering and Research, SPPU (2021-2024) | CGPA: 7.58</li>
+            <li>Diploma - Computer Engineering, Jaywantrao Sawant Polytechnic, MSBTE (2019-2021) | Percentage: 87.71</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Stress and Depression Detection via Social Media</strong> - A web app that detects user stress from social media comments using deep learning.</li>
+            <li><strong>Automated Timetable Generator</strong> - A web app that generates optimized timetables using genetic algorithms.</li>
+        </ul>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>LetsGrowMore - Web Development Intern (2023-24)</li>
+            <li>Oasis Infobyte - Java Developer Intern (Jan-Feb 2024)</li>
+            <li>RS SoftTech - Full Stack Development Training (May-Jun 2024)</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:gadhaverushy45@gmail.com">gadhaverushy45@gmail.com</a></p>
+        <p>Phone: +91-9130807028</p>
+        <p>Location: Uruli Kanchan, Pune, Maharashtra</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/rushikeshgadhave263a9a231">Profile</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Rushikesh Gadhave. All Rights Reserved.</p>
+    </footer>
+    
+    <button class="scroll-to-top" onclick="scrollToTop()">⬆</button>
+    
+    <script>
+        window.onscroll = function() {
+            let button = document.querySelector('.scroll-to-top');
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                button.style.display = 'block';
+            } else {
+                button.style.display = 'none';
+            }
+        };
+        
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
